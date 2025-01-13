@@ -1,0 +1,12 @@
+.container {
+    background-color: beige;
+    border: 3px solid rgb(127, 193, 99);
+    /* we can set padding for top bottom left */
+    padding-top: 69px;
+    padding-bottom: 69px;
+    padding-left: 69px;
+    margin: 34px 55px;
+    border-radius: 23xpx;
+    width: 233px;
+    box-sizing: border-box;
+}

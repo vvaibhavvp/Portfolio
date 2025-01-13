@@ -1,0 +1,109 @@
+body {
+    font-family: "Itim", serif;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('/img/mainimg.jpg');
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    /* border: 2px solid red; */
+}
+
+.left img {
+    width: 80px;
+    filter: invert(100%);
+}
+
+.left div {
+    text-align: center;
+    line-height: 0px;
+    font-size: 13px;
+}
+
+.mid {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+    /* border: 2px solid blue; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 7px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: "Itim", serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 2px 7px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(78, 78, 78);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 125px 105px;
+    padding: 35px 35px;
+    width: 33%;
+    border-radius: 10px;
+}
+
+.form-group input {
+    font-family: "Itim", serif;
+    text-align: center;
+    display: block;
+    width: 410px;
+    padding: 6px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 20px;
+    border-radius: 14px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 60%;
+    margin: 16px auto;
+}
